@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #101209; 
-    padding: 10px;
+    padding: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,4 +53,28 @@ main > div > div > div {
 
 main > div > div > div > * {
     margin: 5px 0;
+}
+
+#content {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#content > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 40px;
+    background-color: #101209;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s ease-out transform;
+    transform: translateY(0);
+}
+
+#content > a:hover {
+    text-decoration: underline;
+    transform: translateY(-8px);
 }
