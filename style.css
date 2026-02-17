@@ -85,8 +85,6 @@ main > div > div > div > * {
     margin-right: auto;
     width: 1000px;
     max-width: 90vw;
-    justify-content: center;
-    align-items: baseline;
     flex-direction: column;
     padding-bottom: 90px;
 }
