@@ -1,4 +1,9 @@
-*, root {
+:root {
+    --black: #101209;
+    --font: #fff;
+}
+
+* {
     padding: 0;
     margin: 0;
 }
@@ -6,12 +11,12 @@
 body {
     font-family: Helvetica, Sans-Serif;
     background: linear-gradient(120deg, #773f1f, #581e0f);
-    color: #fff;
+    color: var(--font);
     min-height: 100vh;
 }
 
 header {
-    background-color: #101209; 
+    background-color: var(--black); 
     padding: 13px;
     display: flex;
     justify-content: center;
@@ -28,7 +33,7 @@ main {
 main > div > div {
     width: 300px;
     min-height: 200px;
-    background-color: #101209;
+    background-color: var(--black);
     margin: 30px 18px;
     border-radius: 13px;
     padding: 5px;
@@ -66,8 +71,8 @@ main > div > div > div > * {
     font-size: 20px;
     font-weight: 600;
     padding: 20px 40px;
-    background-color: #101209;
-    color: #fff;
+    background-color: var(--black);
+    color: var(--font);
     border: none;
     border-radius: 8px;
     transition: 0.3s ease-out transform;
@@ -90,8 +95,8 @@ main > div > div > div > * {
 }
 
 #changelog > div {
-    background-color: #101209;
-    color: #fff;
+    background-color: var(--black);
+    color: var(--font);
     font-size: 17px;
     padding: 20px 40px;
     border-radius: 8px;
