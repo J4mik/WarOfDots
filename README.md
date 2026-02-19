@@ -15,7 +15,7 @@ the download button links to the itch.io download link.
 - add an about section
 - ✅ fix the current version button
 - add gameplay images to background
-- improve the consistency of the design
+- ✅ improve the consistency of the design
 - ✅ add css variables to make editing the look easier
 - ✅ fix header
 - ✅ fix mobile preview
