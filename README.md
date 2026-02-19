@@ -12,7 +12,7 @@
 the download button links to the itch.io download link.
 
 #  TODO
-- add an about section
+- ✅ add an about section
 - ✅ fix the current version button
 - add gameplay images to background
 - ✅ improve the consistency of the design
