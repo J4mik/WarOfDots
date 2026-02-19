@@ -13,9 +13,13 @@ body {
     background: linear-gradient(120deg, #773f1f, #581e0f);
     color: var(--font);
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
+    position: fixed;
+    width: 100vw;
+    z-index: 10000;
     background-color: var(--black); 
     padding: 13px;
     display: flex;
@@ -23,7 +27,12 @@ header {
     align-items: center;
 }
 
+header > p {
+    padding-top: 11px;
+}
+
 main {
+    padding-top: 120px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -34,7 +43,7 @@ main > div > div {
     width: 300px;
     min-height: 200px;
     background-color: var(--black);
-    margin: 30px 18px;
+    margin: 14px 18px;
     border-radius: 13px;
     padding: 5px;
 }
@@ -79,7 +88,7 @@ main > div > div > div > * {
     transform: translateY(0);
 }
 
-#content > a#hover:hover {
+#content > a:hover {
     text-decoration: underline;
     transform: translateY(-8px);
 }
