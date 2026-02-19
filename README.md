@@ -5,8 +5,10 @@
 - stackable design
 - gradient background
 
-<b>screenshot</b> </br>
-<img width="590" height="1127" alt="image" src="https://github.com/user-attachments/assets/977b5da6-f65d-48c3-a501-5843cd2aeb05" /> </br>
+<b>screenshot</b>
+
+<img width="590" height="1127" alt="image" src="https://github.com/user-attachments/assets/977b5da6-f65d-48c3-a501-5843cd2aeb05" />
+
 the download button links to the itch.io download link.
 
 #  TODO
@@ -15,3 +17,5 @@ the download button links to the itch.io download link.
 - add gameplay images to background
 - improve the consistency of the design
 - ✅ add css variables to make editing the look easier
+- ✅ fix header
+- ✅ fix mobile preview

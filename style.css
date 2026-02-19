@@ -1,6 +1,7 @@
 :root {
     --black: #101209;
     --font: #fff;
+    --width: 300px;
 }
 
 * {
@@ -39,8 +40,9 @@ main {
     flex-wrap: wrap;
 }
 
-main > div > div {
-    width: 300px;
+.scheldule {
+    width: var(--width);
+    max-width: 90vw;
     min-height: 200px;
     background-color: var(--black);
     margin: 14px 18px;
@@ -48,24 +50,24 @@ main > div > div {
     padding: 5px;
 }
 
-main > div > div > h2 {
+.scheldule > h2 {
     padding: 5px;
     padding-left: 12px;
     font-size: 17px;
 }
 
-main > div > div > div {
+.scheldule > div {
     font-size: 14px;
     padding: 9px 5px 5px 12px;
-    margin: 12px 12px;
-    width: 256px;
+    margin: 12px;
+    width: calc(100% - 42px);
     height: 0;
     min-height: 61px;
     background-color: #242528;
     border-radius: 8px;
 }
 
-main > div > div > div > * {
+.scheldule > div > * {
     margin: 5px 0;
 }
 

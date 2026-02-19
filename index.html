@@ -13,7 +13,7 @@
     </header>
     <main>
         <div>
-            <div>
+            <div class="scheldule">
                 <h2>War of Dots: Last Stand 1.1.6</h2>
                 <div>
                     <h3>Sounds and soundtracks</h3>
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div>
-            <div>
+            <div class="scheldule">
                 <h2>War of Dots: Last Stand 1.1.7</h2>
                 <div>
                     <h3>Game Modes</h3>
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div>
-            <div>
+            <div class="scheldule">
                 <h2>War of Dots: Last Stand 1.1.8</h2>
                 <div>
                     <h3>add leaderboards</h3>
@@ -165,5 +165,22 @@
             </div>
         </div>
     </div>
+    <script>
+        const schelduleElement = document.getElementsByClassName("scheldule");
+
+        window.addEventListener("resize", updateSize);
+
+        function updateSize() {
+            if (window.innerWidth < 692) {
+                document.documentElement.style.setProperty('--width', '692px');
+            }
+            else {
+                document.documentElement.style.setProperty('--width', '300px');
+
+            }
+        }
+
+        updateSize();
+    </script>
 </body>
 </html>
