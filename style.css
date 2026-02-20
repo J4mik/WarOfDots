@@ -13,7 +13,7 @@
 
 body {
     font-family: Helvetica, Sans-Serif;
-    font-family: "Play", sans-serif;
+    font-family: "Play", sans-serif; 
     background: linear-gradient(120deg, #773f1f, #581e0f);
     background: radial-gradient(#00550014, #130d0a80), url("WarOfDots.png");
     background-position: center;
