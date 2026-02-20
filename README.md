@@ -19,3 +19,4 @@ the download button links to the itch.io download link.
 - ✅ add css variables to make editing the look easier
 - ✅ fix header
 - ✅ fix mobile preview
+- ✅ fix header in mobile view

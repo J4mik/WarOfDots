@@ -1,6 +1,6 @@
 :root {
-    --black: #101209;
-    --button: #1d1d1b;
+    --black: #101209e6;
+    --button: #44444067;
     --font: #fff;
     --width: 300px;
 }
@@ -12,7 +12,9 @@
 
 body {
     font-family: Helvetica, Sans-Serif;
+    background: linear-gradient(120deg, #773f1f, #581e0f);
     background: url("WarOfDots.png");
+    background-size: 100%;
     color: var(--font);
     min-height: 100vh;
     overflow-x: hidden;
@@ -29,8 +31,13 @@ header {
     align-items: center;
 }
 
+h1 {
+    font-size: 28px;
+}
+
 header > p {
     padding-top: 11px;
+    font-size: 14px;
 }
 
 main {
