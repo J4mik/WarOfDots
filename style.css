@@ -14,6 +14,8 @@ body {
     font-family: Helvetica, Sans-Serif;
     background: linear-gradient(120deg, #773f1f, #581e0f);
     background: url("WarOfDots.png");
+    background-position: center;
+    background-attachment: fixed;
     background-size: 100%;
     color: var(--font);
     min-height: 100vh;
