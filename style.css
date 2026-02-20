@@ -1,6 +1,6 @@
 :root {
     --black: #101209e6;
-    --button: #44444067;
+    --button: #44444262;
     --font: #fff;
     --width: 300px;
     --backgound-width: 100vw;
@@ -13,8 +13,9 @@
 
 body {
     font-family: Helvetica, Sans-Serif;
+    font-family: "Play", sans-serif;
     background: linear-gradient(120deg, #773f1f, #581e0f);
-    background: radial-gradient(#00ff0006, #100a0a7c), url("WarOfDots.png");
+    background: radial-gradient(#00550014, #130d0a80), url("WarOfDots.png");
     background-position: center;
     background-attachment: fixed;
     background-size: var(--backgound-width);
@@ -39,7 +40,7 @@ h1 {
 }
 
 header > p {
-    padding-top: 11px;
+    padding-top: 10px;
     font-size: 14px;
 }
 
@@ -100,11 +101,13 @@ main {
     border-radius: 8px;
     transition: 0.3s ease-out transform;
     transform: translateY(0);
+    box-shadow: none;
 }
 
 #content > a:hover {
     text-decoration: underline;
     transform: translateY(-8px);
+    box-shadow: #773f1f33 0 0 10px 5px;
 }
 
 #changelog {
