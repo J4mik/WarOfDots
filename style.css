@@ -3,6 +3,7 @@
     --button: #44444067;
     --font: #fff;
     --width: 300px;
+    --backgound-width: 100vw;
 }
 
 * {
@@ -16,7 +17,7 @@ body {
     background: url("WarOfDots.png");
     background-position: center;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: var(--backgound-width);
     color: var(--font);
     min-height: 100vh;
     overflow-x: hidden;
