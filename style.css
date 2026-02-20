@@ -14,7 +14,7 @@
 body {
     font-family: Helvetica, Sans-Serif;
     background: linear-gradient(120deg, #773f1f, #581e0f);
-    background: radial-gradient(transparent, #100a0aa8), url("WarOfDots.png");
+    background: radial-gradient(#00ff0006, #100a0a7c), url("WarOfDots.png");
     background-position: center;
     background-attachment: fixed;
     background-size: var(--backgound-width);
