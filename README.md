@@ -7,7 +7,7 @@
 
 <b>screenshot</b>
 
-<img width="590" height="1127" alt="image" src="https://github.com/user-attachments/assets/977b5da6-f65d-48c3-a501-5843cd2aeb05" />
+<img width="2377" height="1265" alt="image" src="https://github.com/user-attachments/assets/3ffc8e2c-aa9c-4b1b-b909-63faaa1bf46d" />
 
 the download button links to the itch.io download link.
 
