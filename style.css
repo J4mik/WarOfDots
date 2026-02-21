@@ -45,7 +45,6 @@ header > p {
 }
 
 main {
-    padding-top: 120px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -110,7 +109,11 @@ main {
     box-shadow: #773f1f33 0 0 10px 5px;
 }
 
-#changelog {
+.changelog:first-child {
+    padding-top: 120px;
+}
+
+.changelog {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -120,7 +123,7 @@ main {
     padding-bottom: 90px;
 }
 
-#changelog > div {
+.changelog > div {
     background-color: var(--black);
     color: var(--font);
     font-size: 17px;
@@ -130,7 +133,7 @@ main {
     width: calc(100% - 80px);
 }
 
-#changelog > div > b {
+.changelog > div > b {
     font-size: 19px;
     padding-bottom: 9px;
 }
